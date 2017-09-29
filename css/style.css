@@ -1,0 +1,111 @@
+.mt4form{
+    background: #f1f1f1;
+    padding: 1em 2em;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+	
+}
+.mt4form .left{
+	display: table;
+    content: " ";
+    clear: both;
+	width: 100%;
+	padding: 0.5em 0;
+}
+.mt4form .formimg{
+	text-align: center;
+    margin-top: 2em;
+}
+.mt4form h2{
+	text-align: center;
+    font-size: 32px;
+    color: #022d51;
+    background: #ffcf00;
+    padding: 0.1em;
+    border-radius: 6px;
+    border: 2px solid #ffcf00;
+}
+.mt4form span.small{
+	float:left;
+	    margin-top: 7px;
+}
+.mt4form input.small{
+	float:right;
+}
+.mt4form span{
+	    font-size: 18px;
+}
+.mt4form input[type=text], .mt4form input[type=email], .mt4form select{
+	width: 60%;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 2px solid #ffcf00;
+    border-radius: 6px;
+    color: #00091b;
+}
+.mt4form input[type="text"]:focus {
+    border: 2px solid #000919;
+    transition: 150ms;
+}
+.mt4form input[type=email]:focus {
+    border: 2px solid #000919;
+    transition: 150ms;
+}
+.mt4form select:focus {
+    border: 2px solid #000919;
+    transition: 150ms;
+	outline: none !important;
+}
+.mt4form input[type=submit]{
+	width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+	background:#ffcf00;
+	border: 2px solid transparent;
+	border-radius: 6px;
+	font-weight:600;
+	transition: 150ms;
+	border-bottom-width: 4px;
+	margin-top:1em;
+}
+input::placeholder{
+color:black;
+opacity: .5;
+}
+input:focus{
+outline:none !important;
+}
+.mt4form input[type="submit"]:focus {
+    background: rgba(255, 207, 0, 0.77);
+}
+.mt4form input[type="submit"]:hover {
+    border: 2px solid #141414;
+	cursor: pointer;
+	transition: 150ms;
+	border-bottom-width:4px;
+}
+.emailrowmt4{
+	width:100%;
+}
+.width20{
+	width:20%;
+	float:left;
+}
+.width20 select{
+	border:none;
+	border-radius:none;
+}
+.adminedit:after{
+	display:table;
+	content:" ";
+	clear:both;
+}
+.entrywidth{
+	margin: 0 2em;
+}
+.entrywidth input.regular-text{ 
+	width:100%;
+}
